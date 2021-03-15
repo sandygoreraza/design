@@ -1,0 +1,82 @@
+/*Media query to make your website responsive  */
+
+
+
+  /* Viewports between 600px and 700px wide - Small devices*/
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+
+  [class*="col-"] {
+
+    ......
+    /*then properties */
+  }
+
+} 
+
+
+
+  /* Viewports between 600px and 700px wide - tablets devices */
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+
+   [class*="col-"] {
+
+    ......
+    /*properties */
+  }    
+
+
+} 
+
+
+  /* Viewports between 800px and 1024px wide - laptops/desktops :  Large devices */
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+
+ .....   
+          
+ /*properties */
+
+}  
+
+
+
+  /* Viewports between 1300px and 1680px wide - laptops/desktops :  Extra Large devices */
+@media only screen and (min-width: 1300px) and (max-width: 1680px) {
+   
+ .....   
+          
+ /*properties */
+
+} 
+
+
+
+  /* Viewports between 1920px and 2200px wide - laptops/desktops :  Extra Extra Large devices */
+@media only screen and (min-width: 1920px) and (max-width: 2200px) {
+ .....   
+          
+ /*properties */
+
+}  
+
+
+  /* Viewports between 2210px and 2560px wide - Large TVs  */
+@media only screen and (min-width: 2210px) and (max-width: 2560px) {
+
+ .....   
+          
+ /*properties */
+
+} 
+
+
+  /* Viewports between 3840px and 4096px wide  - Extra Large TVs*/
+@media only screen and (min-width:3840px) and (max-width: 4096px) {
+
+ .....   
+          
+ /*properties */
+
+} 
+  
+
+
